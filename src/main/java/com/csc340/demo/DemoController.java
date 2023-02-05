@@ -22,7 +22,7 @@ public class DemoController {
 	}
 
 	@GetMapping("/states")
-	public Object hello() {
+	public Object states() {
 		try {
             String url = "https://names.drycodes.com/10?nameOptions=states";
             
